@@ -37,12 +37,11 @@ class ViewController: UIViewController {
         ArrayLabel1.text = "\(temp)"
         
         
+        counter++
         
         if  temp == lastValue {
             counter = 0
         }
-        
-        counter++
     }
     
     
@@ -55,12 +54,13 @@ class ViewController: UIViewController {
         ArrayLabel2.text = "\(temp)"
         
         
+        counter++
         
         if  temp == lastValue {
             counter = 0
         }
         
-        counter++
+        
     }
 
 }
